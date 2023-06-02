@@ -2,9 +2,7 @@
 
 # Given an integer num, return the number of steps to reduce it to zero. In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
 
-def numberOfSteps(self, num: int) -> int:
-    # Time Complexity : O(logn)
-    # Space Complexity : O(1)
+def numberOfSteps(num):
     numberOfSteps = 0
     while num > 0:
         if num % 2 == 0:
@@ -14,9 +12,10 @@ def numberOfSteps(self, num: int) -> int:
         numberOfSteps += 1
     return numberOfSteps
 
-    # Bitwise Operator
     # Time Complexity : O(logn)
     # Space Complexity : O(1)
+
+    # Bitwise Operator
     # numberOfSteps = 0
     # while num > 0:
     #     if num & 1 == 0: # Using Bitmask 00000001
@@ -26,6 +25,11 @@ def numberOfSteps(self, num: int) -> int:
     #     numberOfSteps += 1
     # return numberOfSteps
 
+    # Time Complexity : O(logn)
+    # Space Complexity : O(1)
+
+num = 14
+print(numberOfSteps(num))
 
 # Output: 6
 # Explanation: 
