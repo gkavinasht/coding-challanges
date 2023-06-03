@@ -24,5 +24,5 @@ print(findNumbers(nums))
 # 7896 contains 4 digits (even number of digits). 
 # Therefore only 12 and 7896 contain an even number of digits.
 
-# Time Complexity : O()
-# Space Complexity : O()
+# Time Complexity : O(n)
+# Space Complexity : O(1)
