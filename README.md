@@ -11,6 +11,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 485. Max Consecutive Ones
 704. Binary Search
 876. Middle of the Linked List
+941. Valid Mountain Array
 977. Squares of a Sorted Array
 1089. Duplicate Zeros
 1295. Find Numbers with Even Number of Digits
