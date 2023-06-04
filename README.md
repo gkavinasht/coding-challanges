@@ -15,6 +15,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 1089. Duplicate Zeros
 1295. Find Numbers with Even Number of Digits
 1342. Number of Steps to Reduce a Number to Zero
+1346. Check If N and Its Double Exist
 1480. Running Sum of 1d Array
 1672. Richest Customer Wealth
 ```
