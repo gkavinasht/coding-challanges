@@ -6,6 +6,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 26. Remove Duplicates from Sorted Array
 27. Remove Element
 88. Merge Sorted Array
+283. Move Zeroes
 383. Ransom Note
 412. Fizz Buzz
 485. Max Consecutive Ones
