@@ -2,7 +2,8 @@
 
 The below Leetcode coding challanges are implemented in Python programming language.
 
-``` 
+```
+27. Remove Element
 88. Merge Sorted Array
 383. Ransom Note
 412. Fizz Buzz
