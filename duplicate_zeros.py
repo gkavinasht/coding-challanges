@@ -36,12 +36,12 @@ def duplicateZeros(arr):
         else:
             arr[i + possible_dups] = arr[i]
 
-    # Time Complexity : O(n)
-    # Space Complexity: O(1)
-
 arr = [1,0,2,3,0,4,5,0]
 duplicateZeros(arr)
 print(arr)
 
 # Output: [1,0,0,2,3,0,0,4]
 # Explanation: After calling your function, the input array is modified to: [1,0,0,2,3,0,0,4]
+
+# Time Complexity : O(n)
+# Space Complexity: O(1)
