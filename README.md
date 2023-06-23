@@ -14,6 +14,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 485. Max Consecutive Ones
 704. Binary Search
 724. Find Pivot Index
+747. Largest Number At Least Twice of Others
 876. Middle of the Linked List
 905. Sort Array By Parity
 941. Valid Mountain Array
