@@ -8,6 +8,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 54. Spiral Matrix
 66. Plus One
 88. Merge Sorted Array
+118. Pascal's Triangle
 283. Move Zeroes
 383. Ransom Note
 412. Fizz Buzz
