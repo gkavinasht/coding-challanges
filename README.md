@@ -13,6 +13,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 414. Third Maximum Number
 448. Find All Numbers Disappeared in an Array
 485. Max Consecutive Ones
+498. Diagonal Traverse
 704. Binary Search
 724. Find Pivot Index
 747. Largest Number At Least Twice of Others
