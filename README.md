@@ -7,6 +7,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 27. Remove Element
 54. Spiral Matrix
 66. Plus One
+67. Add Binary
 88. Merge Sorted Array
 118. Pascal's Triangle
 283. Move Zeroes
