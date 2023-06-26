@@ -20,14 +20,17 @@ def strStr(haystack, needle):
             
     return index if j == len(needle) else -1
 
+    # Time Complexity: O(m + n)
+	# Space Complexity: O(1)
+
     # return haystack.find(needle)
+
+    # Time Complexity: O(m * n)
+	# Space Complexity: O(1)
 
 haystack = "sadbutsad"
 needle = "sad"
 print(strStr(haystack, needle))
-
-# Time Complexity: O(m * n)
-# Space Complexity: O(1)
 
 # Output: 0
 # Explanation: "sad" occurs at index 0 and 6.
