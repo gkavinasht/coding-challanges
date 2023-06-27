@@ -2,17 +2,36 @@
 # Given an integer array nums of 2n integers, group these integers into n pairs (a1, b1), (a2, b2), ..., (an, bn) such that the sum of min(ai, bi) for all i is maximized. Return the maximized sum.
 
 def arrayPairSum(nums):
+	min_value = min(nums)
+	max_value = max(nums)
+
+	count = [0] * (max_value - min_value + 1)
+
+	for num in nums:
+	    count[num - min_value] += 1
+
+	max_sum = 0
+	is_odd = True
+	for i in range(len(count)):
+	    while count[i] > 0:
+	        if is_odd:
+	            max_sum += i + min_value
+	        is_odd = not is_odd
+	        count[i] -= 1
+
+	return max_sum
+
 	# Time Complexity: O(n)
-    # Space Complexity: O(1)
+	# Space Complexity: O(1)
 
-    # nums.sort()
-    # max_sum = 0
-    # for i in range(0, len(nums), 2):
-    #     max_sum += nums[i]
-    # return max_sum
+	# nums.sort()
+	# max_sum = 0
+	# for i in range(0, len(nums), 2):
+	#     max_sum += nums[i]
+	# return max_sum
 
-    # Time Complexity: O(nlogn) --> Built-in sort()
-    # Space Complexity: O(n) --> Built-in sort()
+	# Time Complexity: O(nlogn) --> Built-in sort()
+	# Space Complexity: O(n) --> Built-in sort()
 
 nums = [1,4,3,2]
 print(arrayPairSum(nums))
