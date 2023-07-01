@@ -13,6 +13,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 118. Pascal's Triangle
 152. Maximum Product Subarray
 167. Two Sum II - Input array is sorted
+189. Rotate Array
 209. Minimum Size Subarray Sum
 283. Move Zeroes
 344. Reverse String
