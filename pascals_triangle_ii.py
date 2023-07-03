@@ -27,6 +27,6 @@ rowIndex = 3
 print(getRow(rowIndex))
 
 # Time Complexity: O(n*2)
-# Space Complexity: O(1)
+# Space Complexity: O(n)
 
 # Output: [1,3,3,1]
