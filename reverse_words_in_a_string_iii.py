@@ -19,4 +19,7 @@ def reverseWords(s):
 s = "Let's take LeetCode contest"
 print(reverseWords(s))
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 # Output: "s'teL ekat edoCteeL tsetnoc"
