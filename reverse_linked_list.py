@@ -38,3 +38,6 @@ printList(res_node)
 
 # head = [1,2,3,4,5]
 # Output: [5,4,3,2,1]
+
+# Time Complexity : O(n)
+# Space Complexity: O(1)
