@@ -7,28 +7,42 @@ class ListNode:
         self.next = next
 
 def removeNthFromEnd(head: ListNode, n: int) -> ListNode:
-    dummy = ListNode(None)
-    dummy.next = head
-    curr = head
-    length = 0
+	slow, fast = head, head
+	for i in range(n):
+	    fast = fast.next
 
-    while curr:
-        length += 1
-        curr = curr.next
+	if fast is None:
+	    return head.next
 
-    del_position = length - n
-    index = 0
-    prev, curr = dummy, head
+	while fast.next:
+	    slow = slow.next
+	    fast = fast.next
 
-    while curr:
-        if index == del_position:
-            prev.next = curr.next
-            break
-        index += 1
-        prev = curr
-        curr = curr.next
+	slow.next = slow.next.next
+	return head
+        
+    # dummy = ListNode(None)
+    # dummy.next = head
+    # curr = head
+    # length = 0
+
+    # while curr:
+    #     length += 1
+    #     curr = curr.next
+
+    # del_position = length - n
+    # index = 0
+    # prev, curr = dummy, head
+
+    # while curr:
+    #     if index == del_position:
+    #         prev.next = curr.next
+    #         break
+    #     index += 1
+    #     prev = curr
+    #     curr = curr.next
     
-    return dummy.next
+    # return dummy.next
 
 first_node = ListNode(1)
 second_node = ListNode(2)
