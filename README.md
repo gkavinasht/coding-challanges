@@ -16,6 +16,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 142. Linked List Cycle II
 151. Reverse Words in a String
 152. Maximum Product Subarray
+160. Intersection of Two Linked Lists
 167. Two Sum II - Input array is sorted
 189. Rotate Array
 209. Minimum Size Subarray Sum
