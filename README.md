@@ -20,6 +20,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 160. Intersection of Two Linked Lists
 167. Two Sum II - Input array is sorted
 189. Rotate Array
+206. Reverse Linked List
 209. Minimum Size Subarray Sum
 283. Move Zeroes
 344. Reverse String
