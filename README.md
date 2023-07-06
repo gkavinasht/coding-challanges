@@ -5,6 +5,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 ```
 14. Longest Common Prefix
 19. Remove Nth Node From End of List
+21. Merge Two Sorted Lists
 26. Remove Duplicates from Sorted Array
 27. Remove Element
 54. Spiral Matrix
