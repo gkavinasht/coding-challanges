@@ -71,5 +71,8 @@ s = Solution()
 res_node = s.copyRandomList(head)
 s.printList(res_node)
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 # head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
 # Output: [[7,null],[13,0],[11,4],[10,2],[1,0]]
