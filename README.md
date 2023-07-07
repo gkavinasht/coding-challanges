@@ -10,6 +10,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 26. Remove Duplicates from Sorted Array
 27. Remove Element
 54. Spiral Matrix
+61. Rotate List
 66. Plus One
 67. Add Binary
 88. Merge Sorted Array
