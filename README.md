@@ -3,6 +3,7 @@
 The below Leetcode coding challanges are implemented in Python programming language.
 
 ```
+1. Two Sum
 2. Add Two Numbers
 14. Longest Common Prefix
 19. Remove Nth Node From End of List
