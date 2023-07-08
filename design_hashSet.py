@@ -40,6 +40,13 @@ print(obj.contains(2))
 obj.remove(2)
 print(obj.contains(2))
 
+# Time Complexity:
+# Add - O(1) and O(n) (Worst case)
+# Remove - O(1) and O(n) (Worst case)
+# Conatins - O(1) and O(n) (Worst case)
+# Space Complexity:
+# O(m + n) -> n - keys, m - buckets
+
 # ["MyHashSet", "add", "add", "contains", "contains", "add", "contains", "remove", "contains"]
 # [[], [1], [2], [1], [3], [2], [2], [2], [2]]
 # Output
