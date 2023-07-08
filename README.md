@@ -42,6 +42,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 557. Reverse Words in a String III
 561. Array Partition
 704. Binary Search
+705. Design HashSet
 707. Design Linked List (Single and Double)
 713. Subarray Product Less Than K
 724. Find Pivot Index
