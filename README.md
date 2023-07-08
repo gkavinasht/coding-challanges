@@ -17,6 +17,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 92. Reverse Linked List II
 118. Pascal's Triangle
 119. Pascal's Triangle II
+136. Single Number
 138. Copy List with Random Pointer
 141. Linked List Cycle
 142. Linked List Cycle II
