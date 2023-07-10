@@ -30,6 +30,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 189. Rotate Array
 202. Happy Number
 203. Remove Linked List Elements
+205. Isomorphic Strings
 206. Reverse Linked List
 209. Minimum Size Subarray Sum
 217. Contains Duplicate
@@ -47,6 +48,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 498. Diagonal Traverse
 557. Reverse Words in a String III
 561. Array Partition
+599. Minimum Index Sum of Two Lists
 704. Binary Search
 705. Design HashSet
 706. Design HashMap
