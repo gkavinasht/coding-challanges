@@ -40,6 +40,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 344. Reverse String
 349. Intersection of Two Arrays
 383. Ransom Note
+387. First Unique Character in a String
 412. Fizz Buzz
 414. Third Maximum Number
 430. Flatten a Multilevel Doubly Linked List
