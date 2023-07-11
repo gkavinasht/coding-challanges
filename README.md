@@ -5,6 +5,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 ```
 1. Two Sum
 2. Add Two Numbers
+3. Longest Substring Without Repeating Characters
 14. Longest Common Prefix
 19. Remove Nth Node From End of List
 21. Merge Two Sorted Lists
