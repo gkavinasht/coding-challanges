@@ -69,6 +69,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 771. Jewels and Stones
 876. Middle of the Linked List
 905. Sort Array By Parity
+912. Sort an Array
 941. Valid Mountain Array
 977. Squares of a Sorted Array
 1051. Height Checker
