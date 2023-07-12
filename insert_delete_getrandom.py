@@ -6,6 +6,47 @@
 # int getRandom() Returns a random element from the current set of elements (it's guaranteed that at least one element exists when this method is called). Each element must have the same probability of being returned.
 # You must implement the functions of the class such that each function works in average O(1) time complexity.
 
+import random
+
+class RandomizedSet:
+    def __init__(self):
+        self.lst = []
+        self.dict = {}
+
+    def insert(self, val: int) -> bool:
+        if val not in self.lst:
+            self.dict[val] = len(self.lst)
+            self.lst.append(val)
+            return True
+        return False
+
+    def remove(self, val: int) -> bool:
+        if val in self.lst:
+            # Replace val with last element so pop() can remove val in O(1)
+            last_element, index = self.lst[-1], self.dict[val]
+            # Update the list by replacing val with last element
+            self.lst[index], self.dict[last_element] = last_element, index
+            self.lst.pop()
+            del self.dict[val]
+            return True
+        return False
+
+    def getRandom(self) -> int:
+        return random.choice(self.lst)
+
+
+randomizedSet = RandomizedSet()
+print(randomizedSet.insert(1))
+print(randomizedSet.remove(2))
+print(randomizedSet.insert(2))
+print(randomizedSet.getRandom())
+print(randomizedSet.remove(1))
+print(randomizedSet.insert(2))
+print(randomizedSet.getRandom())
+
+# Time Complexity: O(1)
+# Space Complexity: O(n)
+
 # Input
 # ["RandomizedSet", "insert", "remove", "insert", "getRandom", "remove", "insert", "getRandom"]
 # [[], [1], [2], [2], [], [1], [2], []]
