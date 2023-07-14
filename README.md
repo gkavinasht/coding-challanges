@@ -17,6 +17,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 61. Rotate List
 66. Plus One
 67. Add Binary
+75. Sort Colors
 88. Merge Sorted Array
 92. Reverse Linked List II
 118. Pascal's Triangle
