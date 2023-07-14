@@ -8,22 +8,37 @@
 
 def heightChecker(heights):
     # Using Counting Sort
-    max_ele = max(heights)
-    heights_count = [0] * (max_ele + 1)
     expected = [0] * len(heights)
+    minVal, maxVal = min(heights), max(heights)
+    heights_count = {}
 
-    # Count the frequencies of each height in the heights array
     for height in heights:
-        heights_count[height] += 1
+        heights_count[height] = heights_count.get(height, 0) + 1
 
-    # Modify the heights_count array to store the cumulative count of each element. This step helps determine the correct positions of elements in the sorted output array.
-    for i in range(1, len(heights_count)):
-        heights_count[i] += heights_count[i - 1]
+    index = 0
+    for val in range(minVal, maxVal + 1, 1):
+        while heights_count.get(val, 0) > 0:
+            expected[index] = val
+            index += 1
+            heights_count[val] -= 1
 
-    # Generate the expected array based on the height frequencies
-    for height in reversed(heights):
-        expected[heights_count[height] - 1] = height
-        heights_count[height] -= 1
+    # Using Counting Sort - Alternate version
+    # max_ele = max(heights)
+    # heights_count = [0] * (max_ele + 1)
+    # expected = [0] * len(heights)
+
+    # # Count the frequencies of each height in the heights array
+    # for height in heights:
+    #     heights_count[height] += 1
+
+    # # Modify the heights_count array to store the cumulative count of each element. This step helps determine the correct positions of elements in the sorted output array.
+    # for i in range(1, len(heights_count)):
+    #     heights_count[i] += heights_count[i - 1]
+
+    # # Generate the expected array based on the height frequencies
+    # for height in reversed(heights):
+    #     expected[heights_count[height] - 1] = height
+    #     heights_count[height] -= 1
 
     # Time Complexity: O(n + k)
     # Space Complexity: O(n + k)
