@@ -32,6 +32,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 160. Intersection of Two Linked Lists
 167. Two Sum II - Input array is sorted
 189. Rotate Array
+200. Number of Islands
 202. Happy Number
 203. Remove Linked List Elements
 205. Isomorphic Strings
