@@ -28,6 +28,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 138. Copy List with Random Pointer
 141. Linked List Cycle
 142. Linked List Cycle II
+150. Evaluate Reverse Polish Notation
 151. Reverse Words in a String
 152. Maximum Product Subarray
 155. Min Stack
