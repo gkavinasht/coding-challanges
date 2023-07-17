@@ -8,6 +8,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 3. Longest Substring Without Repeating Characters
 14. Longest Common Prefix
 19. Remove Nth Node From End of List
+20. Valid Parentheses
 21. Merge Two Sorted Lists
 26. Remove Duplicates from Sorted Array
 27. Remove Element
