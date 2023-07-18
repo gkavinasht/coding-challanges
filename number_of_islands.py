@@ -24,6 +24,21 @@ def numIslands(grid):
 
         return 1
 
+    # Using DFS and Stacks
+    # def getIsland(row, col):
+    #     stack = [(row, col)]
+    #     while stack:
+    #         curr_row, curr_col = stack.pop()
+
+    #         for x, y in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+    #             rx, cy = curr_row + x, curr_col + y
+
+    #             if rx in range(m) and cy in range(n) and grid[rx][cy] == '1' and (rx, cy) not in visited:
+    #                 stack.append((rx, cy))
+    #                 visited.add((rx, cy))
+
+    #     return 1
+
     # Using DFS and Recursion
     # def getIsland(r, c):
     #     if r not in range(m) or c not in range(n) or grid[r][c] == '0' or (r, c) in visited:
