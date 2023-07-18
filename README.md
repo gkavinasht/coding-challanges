@@ -62,6 +62,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 448. Find All Numbers Disappeared in an Array
 454. 4Sum II
 485. Max Consecutive Ones
+494. Target Sum
 498. Diagonal Traverse
 557. Reverse Words in a String III
 561. Array Partition
