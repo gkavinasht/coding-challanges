@@ -9,24 +9,24 @@ class Solution:
     def __init__(self):
         self.memo = {}
 
-    def calculate(self, nums, index, target):
+    def calculate(self, nums, index, curr_sum, target):
         if index == len(nums):
-            return 1 if target == 0 else 0
+            return 1 if curr_sum == target else 0
 
-        if (index, target) in self.memo:
-            return self.memo[(index, target)]
+        if (index, curr_sum) in self.memo:
+            return self.memo[(index, curr_sum)]
 
         # Calculate the number of ways with '+' and '-' symbols for the current number
-        add = self.calculate(nums, index + 1, target + nums[index])
-        subtract = self.calculate(nums, index + 1, target - nums[index])
+        add = self.calculate(nums, index + 1, curr_sum + nums[index], target)
+        subtract = self.calculate(nums, index + 1, curr_sum - nums[index], target)
         ways = add + subtract
 
         # Store the result in memo to avoid redundant calculations
-        self.memo[(index, target)] = ways
+        self.memo[(index, curr_sum)] = ways
         return ways
 
     def findTargetSumWays(self, nums, target):
-        return self.calculate(nums, 0, target)
+        return self.calculate(nums, 0, 0, target)
 
     # Time Complexity: O(n*s) -> n: number of elements, s: sum of all the elements
     # Space Complexity: O(n*s) -> memo
@@ -35,16 +35,16 @@ class Solution:
     # def __init__(self):
     #     self.count = 0
 
-    # def calculate(self, nums, index, target):
+    # def calculate(self, nums, index, curr_sum, target):
     #     if index == len(nums):
-    #         if target == 0:
+    #         if curr_sum == target:
     #             self.count += 1
     #     else:
-    #         self.calculate(nums, index + 1, target + nums[index])
-    #         self.calculate(nums, index + 1, target - nums[index])
+    #         self.calculate(nums, index + 1, curr_sum + nums[index], target)
+    #         self.calculate(nums, index + 1, curr_sum - nums[index], target)
 
     # def findTargetSumWays(self, nums, target):
-    #     self.calculate(nums, 0, target)
+    #     self.calculate(nums, 0, 0, target)
     #     return self.count
 
     # Time Complexity: O(2**n)
