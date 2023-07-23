@@ -68,6 +68,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 485. Max Consecutive Ones
 494. Target Sum
 498. Diagonal Traverse
+542. 01 Matrix
 557. Reverse Words in a String III
 561. Array Partition
 599. Minimum Index Sum of Two Lists
