@@ -46,6 +46,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 215. Kth Largest Element in an Array
 217. Contains Duplicate
 219. Contains Duplicate II
+225. Implement Stack using Queues
 232. Implement Queue using Stacks
 234. Palindrome Linked List
 279. Perfect Squares
