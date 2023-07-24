@@ -219,3 +219,12 @@ print(maxHeap)
 print(maxHeap.pop())
 # 4
 print(maxHeap.pop())
+
+
+# Time Complexities:
+# Min/Max Heap:
+# Add - O(logn), Pop - O(logn), Peek - O(1)
+
+# Space Complexities:
+# Min/Max Heap:
+# Add, Pop, Peek - O(1)
