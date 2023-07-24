@@ -12,6 +12,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 21. Merge Two Sorted Lists
 26. Remove Duplicates from Sorted Array
 27. Remove Element
+33. Search in Rotated Sorted Array
 36. Valid Sudoku
 49. Group Anagrams
 54. Spiral Matrix
