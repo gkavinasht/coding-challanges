@@ -35,6 +35,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 150. Evaluate Reverse Polish Notation
 151. Reverse Words in a String
 152. Maximum Product Subarray
+153. Find Minimum in Rotated Sorted Array
 155. Min Stack
 160. Intersection of Two Linked Lists
 162. Find Peak Element
