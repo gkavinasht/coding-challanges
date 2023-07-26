@@ -37,6 +37,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 152. Maximum Product Subarray
 155. Min Stack
 160. Intersection of Two Linked Lists
+162. Find Peak Element
 167. Two Sum II - Input array is sorted
 189. Rotate Array
 200. Number of Islands
