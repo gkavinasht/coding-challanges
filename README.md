@@ -51,6 +51,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 225. Implement Stack using Queues
 232. Implement Queue using Stacks
 234. Palindrome Linked List
+278. First Bad Version
 279. Perfect Squares
 283. Move Zeroes
 328. Odd Even Linked List
