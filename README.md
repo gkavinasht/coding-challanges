@@ -58,6 +58,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 278. First Bad Version
 279. Perfect Squares
 283. Move Zeroes
+287. Find the Duplicate Number
 328. Odd Even Linked List
 344. Reverse String
 347. Top K Frequent Elements
