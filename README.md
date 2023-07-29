@@ -92,6 +92,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 724. Find Pivot Index
 733. Flood Fill
 739. Daily Temperatures
+744. Find Smallest Letter Greater Than Target
 747. Largest Number At Least Twice of Others
 752. Open the Lock
 771. Jewels and Stones
