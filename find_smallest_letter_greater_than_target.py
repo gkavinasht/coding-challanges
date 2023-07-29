@@ -9,6 +9,9 @@ def nextGreatestLetter(letters, target):
 
     # return letters[0]
 
+    # Time Complexity: O(n)
+    # Space Complexity: O(1)
+
     l, r = 0, len(letters) - 1
     while l <= r:
         mid = (l + r) // 2
@@ -19,6 +22,9 @@ def nextGreatestLetter(letters, target):
             l = mid + 1
 
     return letters[0] if l == len(letters) else letters[l]
+
+    # Time Complexity: O(logn)
+    # Space Complexity: O(1)
 
 letters = ["c","f","j"]
 target = "a"
