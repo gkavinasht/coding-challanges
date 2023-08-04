@@ -13,6 +13,7 @@ def printList(head: ListNode) -> ListNode:
 		curr = curr.next
 
 def reverseList(head: ListNode) -> ListNode:
+    # Iteration
     prev, curr = None, head
     while curr:
         temp = curr.next
@@ -20,6 +21,23 @@ def reverseList(head: ListNode) -> ListNode:
         prev = curr
         curr = temp
     return prev
+
+    # Time Complexity : O(n)
+    # Space Complexity: O(1)
+
+    # Recursion
+    # def reverse(prev, curr):
+    #     if not curr:
+    #         return prev
+
+    #     temp = curr.next
+    #     curr.next = prev
+    #     return reverse(curr, temp)
+
+    # return reverse(None, head)
+
+    # Time Complexity : O(n)
+    # Space Complexity: O(n)
 
 first_node = ListNode(1)
 second_node = ListNode(2)
@@ -38,6 +56,3 @@ printList(res_node)
 
 # head = [1,2,3,4,5]
 # Output: [5,4,3,2,1]
-
-# Time Complexity : O(n)
-# Space Complexity: O(1)
