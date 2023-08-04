@@ -23,6 +23,23 @@ def getRow(rowIndex):
     #     row = current_row
     # return row
 
+    # Recursion
+    # if rowIndex == 0:
+    #     return [1] # Base case
+    
+    # # Recursive call to get the previous row
+    # prev = self.getRow(rowIndex-1)
+    # # The first element of each row is always 1
+    # row = [1]
+
+    # # Generate the middle elements of the row
+    # for i in range(1, len(prev)):
+    #     row.append(prev[i-1] + prev[i])
+
+    # # The last element of each row is always 1
+    # row.append(1)
+    # return row
+
 rowIndex = 3
 print(getRow(rowIndex))
 
