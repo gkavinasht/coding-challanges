@@ -40,6 +40,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 141. Linked List Cycle
 142. Linked List Cycle II
 144. Binary Tree Preorder Traversal
+145. Binary Tree Postorder Traversal
 150. Evaluate Reverse Polish Notation
 151. Reverse Words in a String
 152. Maximum Product Subarray
