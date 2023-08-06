@@ -26,7 +26,7 @@ def preorderTraversal(root: TreeNode):
     # Time Complexity: O(n)
     # Space Complexity: O(n)
 
-    # Iteration
+    # Iteration-1
     res = []
     stack = []
     stack.append(root)
@@ -41,6 +41,22 @@ def preorderTraversal(root: TreeNode):
             stack.append(currNode.left)
 
     return res
+
+    # Iteration-2
+    # res = []
+    # stack = deque()
+    # curr = root
+    
+    # while stack or curr:
+    #     while curr:
+    #         res.append(curr.val)
+    #         stack.append(curr)
+    #         curr = curr.left
+            
+    #     curr = stack.pop()
+    #     curr = curr.right
+        
+    # return res
 
     # Time Complexity: O(n)
     # Space Complexity: O(n)
