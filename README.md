@@ -33,6 +33,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 101. Symmetric Tree
 102. Binary Tree Level Order Traversal
 104. Maximum Depth of Binary Tree
+106. Construct Binary Tree from Inorder and Postorder Traversal
 112. Path Sum
 118. Pascal's Triangle
 119. Pascal's Triangle II
