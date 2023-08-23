@@ -72,6 +72,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 279. Perfect Squares
 283. Move Zeroes
 287. Find the Duplicate Number
+297. Serialize and Deserialize Binary Tree
 328. Odd Even Linked List
 344. Reverse String
 347. Top K Frequent Elements
