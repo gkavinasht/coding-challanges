@@ -72,6 +72,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 278. First Bad Version
 279. Perfect Squares
 283. Move Zeroes
+285. Inorder Successor in BST
 287. Find the Duplicate Number
 297. Serialize and Deserialize Binary Tree
 328. Odd Even Linked List
