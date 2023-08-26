@@ -104,6 +104,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 652. Find Duplicate Subtrees
 658. Find K Closest Elements
 700. Search in a Binary Search Tree
+701. Insert into a Binary Search Tree
 704. Binary Search
 705. Design HashSet
 706. Design HashMap
