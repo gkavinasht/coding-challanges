@@ -25,6 +25,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 67. Add Binary
 69. Sqrt(x)
 70. Climbing Stairs
+74. Search a 2D Matrix
 75. Sort Colors
 88. Merge Sorted Array
 92. Reverse Linked List II
@@ -72,6 +73,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 234. Palindrome Linked List
 235. Lowest Common Ancestor of a Binary Search Tree
 236. Lowest Common Ancestor of a Binary Tree
+240. Search a 2D Matrix II
 278. First Bad Version
 279. Perfect Squares
 283. Move Zeroes
