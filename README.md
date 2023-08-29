@@ -35,6 +35,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 94. Binary Tree Inorder Traversal
 95. Unique Binary Search Trees II
 98. Validate Binary Search Tree
+100. Same Tree
 101. Symmetric Tree
 102. Binary Tree Level Order Traversal
 104. Maximum Depth of Binary Tree
