@@ -31,6 +31,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 74. Search a 2D Matrix
 75. Sort Colors
 77. Combinations
+84. Largest Rectangle in Histogram
 88. Merge Sorted Array
 92. Reverse Linked List II
 94. Binary Tree Inorder Traversal
