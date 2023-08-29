@@ -19,6 +19,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 34. Find First and Last Position of Element in Sorted Array
 36. Valid Sudoku
 37. Sudoku Solver
+46. Permutations
 49. Group Anagram
 50. Pow(x, n)
 51. N-Queens
