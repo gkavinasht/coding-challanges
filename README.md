@@ -112,6 +112,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 498. Diagonal Traverse
 509. Fibonacci Number
 542. 01 Matrix
+547. Number of Provinces
 557. Reverse Words in a String III
 561. Array Partition
 599. Minimum Index Sum of Two Lists
