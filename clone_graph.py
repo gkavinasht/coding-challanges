@@ -15,26 +15,26 @@ class Node:
     def __init__(self, val = 0, neighbors = None):
         self.val = val
         self.neighbors = neighbors if neighbors is not None else []
-
-class Solution:
-    def __init__(self):
-        self.visited = {}
         
-    def cloneGraph(self, node: 'Node') -> 'Node':
+def cloneGraph(node):
+    def clone(node):
         if not node:
             return node
 
-        if node in self.visited:
-            return self.visited[node]
+        if node in visited:
+            return visited[node]
 
         clone_node = Node(node.val, [])
-        self.visited[node] = clone_node
+        visited[node] = clone_node
 
         if node.neighbors:
             for node in node.neighbors:
-                clone_node.neighbors.append(self.cloneGraph(node))
+                clone_node.neighbors.append(clone(node))
 
         return clone_node
+
+    visited = {}
+    return clone(node)
 
 # Create nodes
 node1 = Node(1)
@@ -48,11 +48,8 @@ node2.neighbors = [node1, node3]
 node3.neighbors = [node2, node4]
 node4.neighbors = [node1, node3]
 
-# Create the Solution object
-solution = Solution()
-
 # Clone the graph
-cloned_node1 = solution.cloneGraph(node1)
+cloned_node1 = cloneGraph(node1)
 
 # Test: Output the cloned graph
 print("Cloned Node 1: ", cloned_node1.val)
