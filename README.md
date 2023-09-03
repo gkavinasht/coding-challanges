@@ -94,6 +94,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 310. Minimum Height Trees
 323. Number of Connected Components in an Undirected Graph
 328. Odd Even Linked List
+329. Longest Increasing Path in a Matrix
 344. Reverse String
 347. Top K Frequent Elements
 349. Intersection of Two Arrays
