@@ -91,6 +91,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 285. Inorder Successor in BST
 287. Find the Duplicate Number
 297. Serialize and Deserialize Binary Tree
+310. Minimum Height Trees
 323. Number of Connected Components in an Undirected Graph
 328. Odd Even Linked List
 344. Reverse String
