@@ -152,6 +152,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 977. Squares of a Sorted Array
 1051. Height Checker
 1089. Duplicate Zeros
+1192. Critical Connections in a Network
 1202. Smallest String With Swaps
 1295. Find Numbers with Even Number of Digits
 1299. Replace Elements with Greatest Element on Right Side
