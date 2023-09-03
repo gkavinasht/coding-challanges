@@ -4,20 +4,19 @@
 # Given an array rooms where rooms[i] is the set of keys that you can obtain if you visited room i, return true if you can visit all the rooms, or false otherwise.
 
 def canVisitAllRooms(rooms):
-    visited = [False] * len(rooms)
-    stack = []
-
-    visited[0] = True
-    stack.append(0)
+    visited = set()
+    stack = deque([0])
+    visited.add(0)
 
     while stack:
-        node = stack.pop()
-        for nei in rooms[node]:
-            if not visited[nei]:
-                stack.append(nei)
-                visited[nei] = True
+        curr_node = stack.popleft()
 
-    return False if False in visited else True
+        for children in rooms[curr_node]:
+            if children not in visited:
+                stack.append(children)
+                visited.add(children)
+
+    return len(visited) == len(rooms)
 
 rooms = [[1],[2],[3],[]]
 print(canVisitAllRooms(rooms))
