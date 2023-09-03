@@ -3,7 +3,7 @@
 # A critical connection is a connection that, if removed, will make some servers unable to reach some other server. Return all critical connections in the network in any order.
 
 def criticalConnections(n, connections):
-	 graph = collections.defaultdict(list)
+	graph = collections.defaultdict(list)
     for u, v in connections:
         graph[u].append(v)
         graph[v].append(u)
