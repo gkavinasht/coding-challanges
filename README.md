@@ -23,6 +23,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 36. Valid Sudoku
 37. Sudoku Solver
 42. Trapping Rain Water
+45. Jump Game II
 46. Permutations
 49. Group Anagram
 50. Pow(x, n)
