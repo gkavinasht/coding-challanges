@@ -17,6 +17,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 24. Swap Nodes in Pairs
 26. Remove Duplicates from Sorted Array
 27. Remove Element
+32. Longest Valid Parentheses
 33. Search in Rotated Sorted Array
 34. Find First and Last Position of Element in Sorted Array
 36. Valid Sudoku
