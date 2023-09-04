@@ -7,6 +7,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 2. Add Two Numbers
 3. Longest Substring Without Repeating Characters
 4. Median of Two Sorted Arrays
+5. Longest Palindromic Substring
 14. Longest Common Prefix
 17. Letter Combinations of a Phone Number
 19. Remove Nth Node From End of List
