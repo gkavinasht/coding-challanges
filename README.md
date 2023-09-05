@@ -32,6 +32,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 54. Spiral Matrix
 55. Jump Game
 61. Rotate List
+62. Unique Paths
 66. Plus One
 67. Add Binary
 69. Sqrt(x)
