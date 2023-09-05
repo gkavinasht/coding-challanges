@@ -28,6 +28,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 49. Group Anagram
 50. Pow(x, n)
 51. N-Queens
+53. Maximum Subarray
 54. Spiral Matrix
 55. Jump Game
 61. Rotate List
