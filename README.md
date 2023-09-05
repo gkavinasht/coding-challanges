@@ -38,6 +38,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 67. Add Binary
 69. Sqrt(x)
 70. Climbing Stairs
+72. Edit Distance
 74. Search a 2D Matrix
 75. Sort Colors
 77. Combinations
