@@ -48,6 +48,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 92. Reverse Linked List II
 94. Binary Tree Inorder Traversal
 95. Unique Binary Search Trees II
+96. Unique Binary Search Trees
 98. Validate Binary Search Tree
 100. Same Tree
 101. Symmetric Tree
