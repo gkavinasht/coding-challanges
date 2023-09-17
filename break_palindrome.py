@@ -21,4 +21,4 @@ print(breakPalindrome(palindrome))
 # Of all the ways, "aaccba" is the lexicographically smallest.
 
 # Time Complexity: O(n)
-# Space Complexity: O(1)
+# Space Complexity: O(n)
