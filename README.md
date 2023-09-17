@@ -170,6 +170,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 1295. Find Numbers with Even Number of Digits
 1297. Maximum Number of Occurrences of a Substring
 1299. Replace Elements with Greatest Element on Right Side
+1328. Break a Palindrome
 1342. Number of Steps to Reduce a Number to Zero
 1346. Check If N and Its Double Exist
 1466. Reorder Routes to Make All Paths Lead to the City Zero
