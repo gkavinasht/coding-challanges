@@ -172,6 +172,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 1248. Count Number of Nice Subarrays
 1282. Group the People Given the Group Size They Belong To
 1290. Convert Binary Number in a Linked List to Integer
+1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 1295. Find Numbers with Even Number of Digits
 1297. Maximum Number of Occurrences of a Substring
 1299. Replace Elements with Greatest Element on Right Side
