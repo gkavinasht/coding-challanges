@@ -181,6 +181,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 1328. Break a Palindrome
 1342. Number of Steps to Reduce a Number to Zero
 1346. Check If N and Its Double Exist
+1419. Minimum Number of Frogs Croaking
 1466. Reorder Routes to Make All Paths Lead to the City Zero
 1480. Running Sum of 1d Array
 1615. Maximal Network Rank
