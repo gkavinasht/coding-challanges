@@ -122,6 +122,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 387. First Unique Character in a String
 394. Decode String
 399. Evaluate Division
+404. Sum of Left Leaves
 410. Split Array Largest Sum
 412. Fizz Buzz
 414. Third Maximum Number
