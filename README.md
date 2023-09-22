@@ -116,6 +116,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 367. Valid Perfect Square
 374. Guess Number Higher or Lower
 380. Insert Delete GetRandom O(1)
+382. Linked List Random Node
 383. Ransom Note
 387. First Unique Character in a String
 394. Decode String
