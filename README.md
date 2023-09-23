@@ -134,6 +134,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 454. 4Sum II
 485. Max Consecutive Ones
 494. Target Sum
+496. Next Greater Element I
 498. Diagonal Traverse
 509. Fibonacci Number
 542. 01 Matrix
