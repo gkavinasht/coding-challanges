@@ -22,3 +22,6 @@ nums = [1,2,2,4]
 print(findErrorNums(nums))
 
 # Output: [2,3]
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
