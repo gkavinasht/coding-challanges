@@ -67,3 +67,6 @@ print(ans.left.val)
 print(ans.right.val)
 
 # Output: [2,1,3]
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
