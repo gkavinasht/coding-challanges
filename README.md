@@ -99,6 +99,7 @@ The below Leetcode coding challanges are implemented in Python programming langu
 235. Lowest Common Ancestor of a Binary Search Tree
 236. Lowest Common Ancestor of a Binary Tree
 240. Search a 2D Matrix II
+257. Binary Tree Paths
 261. Graph Valid Tree
 278. First Bad Version
 279. Perfect Squares
