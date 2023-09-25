@@ -37,3 +37,6 @@ print(nearestExit(maze, entrance))
 # - You can reach [0,2] by moving 1 step up.
 # It is impossible to reach [2,3] from the entrance.
 # Thus, the nearest exit is [0,2], which is 1 step away.
+
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
