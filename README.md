@@ -196,4 +196,5 @@ The below Leetcode coding challanges are implemented in Python programming langu
 1480. Running Sum of 1d Array
 1615. Maximal Network Rank
 1672. Richest Customer Wealth
+1926. Nearest Exit from Entrance in Maze
 ```
