@@ -61,6 +61,28 @@ def postorderTraversal(root):
 
     # return res[::-1]
 
+    # Iteration-3
+    # if not root:
+    #     return []
+
+    # result = []
+    # stack1 = [root]
+    # stack2 = []
+
+    # while stack1:
+    #     current = stack1.pop()
+    #     stack2.append(current)
+
+    #     if current.left:
+    #         stack1.append(current.left)
+    #     if current.right:
+    #         stack1.append(current.right)
+
+    # while stack2:
+    #     result.append(stack2.pop().data)
+
+    # return result
+
 # root = [1,null,2,3]
 
 node_1 = TreeNode(1)
