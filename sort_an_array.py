@@ -3,6 +3,45 @@
 # You must solve the problem without using any built-in functions in O(nlog(n)) time complexity and with the smallest space complexity possible.
 
 # Merge Sort
+# Approach - 1
+def merge(left, right):
+    results = []
+    i, j = 0, 0
+
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            results.append(left[i])
+            i += 1
+        else:
+            results.append(right[j])
+            j += 1
+
+    while i < len(left):
+        results.append(left[i])
+        i += 1
+
+    while j < len(right):
+        results.append(right[j])
+        j += 1
+
+    return results
+
+
+def mergeSort(nums):
+    if len(nums) <= 1:
+        return nums
+
+    mid = len(nums) // 2
+    left = mergeSort(nums[:mid])
+    right = mergeSort(nums[mid:])
+
+    return merge(left, right)
+
+nums = [10, 24, 76, 73]
+print(mergeSort(nums))
+
+
+# Approach - 2
 def mergeSortArray(nums):
     tempArr = [0] * len(nums)
 
