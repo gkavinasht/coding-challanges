@@ -3,19 +3,36 @@
 # The graph is given as follows: graph[i] is a list of all nodes you can visit from node i (i.e., there is a directed edge from node i to node graph[i][j]).
 
 def allPathsSourceTarget(graph):
-    def dfs(root, path):
-        if root == len(graph) - 1:
-            paths.append(list(path))
-            return
-
-        for children in graph[root]:
-            path.append(children)
-            dfs(children, path)
-            path.pop()
-
+    # BFS
     paths = []
-    dfs(0, [0])
+    queue = collections.deque([(0, [0])])
+
+    while queue:
+        node, path = queue.popleft()
+
+        if node == len(graph) - 1:
+            paths.append(list(path))
+
+        for nei in graph[node]:
+            queue.append((nei, path + [nei]))
+
     return paths
+
+    # DFS
+    # def dfs(node, path):
+    #     if node == n - 1:
+    #         paths.append(list(path))
+    #         return
+
+    #     for nei in graph[node]:
+    #         path.append(nei)
+    #         dfs(nei, path)
+    #         path.pop()
+
+    # n = len(graph)
+    # paths = []
+    # dfs(0,[0])
+    # return paths
 
 graph = [[1,2],[3],[3],[]]
 print(allPathsSourceTarget(graph))

@@ -1,7 +1,7 @@
 def flattenList(nestedList):
     res = []
     for ele in nestedList:
-        if type(ele) == list:
+        if isinstance(ele, list):
             res.extend(flattenList(ele))
         else:
             res.append(ele)

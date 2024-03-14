@@ -9,3 +9,17 @@ Arrays/Strings
 6. Counting Sort
 7. Stacks
 7. Queues
+
+
+Graph Algorithms
+
+1. Disjoint sets and Union Find
+2. Depth First Search
+3. Breadth First Search
+4. Minimum Spanning Tree
+   a. Kruskals Algorithm
+   b. Prims Algorithm
+5. Single Source Shortest path (for weighted graphs)
+   a. Dijkstra's Algorithm (only positive weights)
+   b. Bellman Ford Algorithm (both positive and negative weights)
+6. Kahn's Algorithm for Topological sorting
